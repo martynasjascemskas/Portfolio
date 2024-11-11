@@ -1,4 +1,3 @@
-import { useState } from "react";
 import githubLogo from "../../assets/github-icon.svg";
 import linkedinLogo from "../../assets/linkedin-icon.svg";
 import cvLogo from "../../assets/resume-icon.png";
@@ -8,8 +7,6 @@ import locationPin from "../../assets/location-pin.svg";
 import "../../App.css";
 
 function Landing() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <h1>Hi! I'm Martynas Jascemskas </h1>
