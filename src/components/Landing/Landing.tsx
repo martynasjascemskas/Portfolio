@@ -17,9 +17,9 @@ function Landing() {
       <div className="relative">
         <p className="font-medium text-xl">
           Hello! I'm
-          <h1 className="font-bold text-5xl md:text-7xl">
+          <span className="block font-bold text-5xl md:text-7xl">
             Martynas Jascemskas
-          </h1>
+          </span>
         </p>
         <p className="font-medium mt-4 w-2/3 mx-auto text-center lg:text-left lg:w-auto">
           A <span className="font-bold text-lg">Full Stack Developer</span>{" "}
@@ -50,7 +50,8 @@ function Landing() {
 
         <div className="flex items-center justify-center absolute -bottom-10 left-0 right-0 gap-1 fill-red-500 lg:top-0 lg:bottom-auto lg:right-0 lg:left-auto">
           <img src={locationPin} className="h-8" alt="" />
-          <p>Dublin, Ireland</p>
+          <p className="font-semibold">Dublin, </p>
+          <p className="font-medium">Ireland</p>
         </div>
       </div>
     </div>
