@@ -18,8 +18,9 @@ const experiences: Experience[] = [
     type: "Hybrid",
     details: [
       "Contributed to an agile environment with CI/CD development workflow, fostering a collaborative and productive team environment.",
-      "Monitoring logs & errors",
+      "Assess and troubleshoot errors using Datadog",
       "Deploying and managing pipiles in Spinnaker and Samson",
+      "Developed several front-end components using React TypeScript",
       "Contributed to production level software development",
     ],
   },
