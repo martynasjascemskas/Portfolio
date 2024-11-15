@@ -50,21 +50,25 @@ function Contact() {
             </p>
           </div>
         </div>
-        <div className="justify-items-center text-center w-1/2">
+        <div className="justify-items-center text-center w-full md:w-1/2">
           <div className="w-14 h-14 rounded-full flex justify-center items-center bg-[#bc9864]">
             <img src={emailLogo} className="size-6" alt="Email logo" />
           </div>
           <div className="text">
             <p>
               <span className="text-[#bc9864]">Email:</span> <br />
-              <a href="mailto:martis.jascemskas@gmail.com" target="_blank">
+              <a
+                href="mailto:martis.jascemskas@gmail.com"
+                target="_blank"
+                className=""
+              >
                 martis.jascemskas@gmail.com
               </a>
             </p>
           </div>
         </div>
       </div>
-      <div className="flex flex-col mb-12 size-4/12 rounded-md p-10">
+      <div className="flex flex-col mb-12 rounded-md p-10 size-8/12 sm:size-8/12 md:size-6/12 lg:size-5/12 xl:size-4/12">
         <form onSubmit={onSubmit} className="">
           <div className="mb-4 h-10">
             <input
