@@ -12,44 +12,53 @@ function Experience() {
       <h1 className="font-bold text-5xl">Experience</h1>
       <hr className="w-8/12 border-t-4 border-gray-300" />
       {experiences.map((experience, index) => (
-        <div key={index} className="flex">
-          <div className="flex flex-col max-w-5xl">
-            <span className="font-extrabold text-2xl">
-              <a href={experience.url} target="_blank" className="company">
-                {experience.company}
-              </a>
-            </span>
-            <span className="font-semibold text-lg">{experience.title}</span>
+        <div key={index} className="w-8/12">
+          <div className="flex justify-between w-full">
             <div>
-              <button
-                onClick={handleChange}
-                className="underline underline-offset-4"
-              >
-                {details ? "Hide" : "Show"} Details
-              </button>
-              <Box
-                sx={{
-                  display: "flex",
-                  height: details ? "150px" : "0px",
-                  maxWidth: "75%",
-                  overflow: "hidden",
-                  transition: "height 500ms ease",
-                }}
-              >
-                <Fade in={details}>
-                  <ul>
-                    {experience.details.map((detail, i) => (
-                      <li key={i}>{detail}</li>
-                    ))}
-                  </ul>
-                </Fade>
-              </Box>
+              <span className="font-extrabold text-xl">
+                <a
+                  href={experience.url}
+                  target="_blank"
+                  className="hover:underline underline-offset-2"
+                >
+                  {experience.company}
+                </a>
+              </span>
+              <span className="font-semibold text-lg block">
+                {experience.title}
+              </span>
+            </div>
+            <div className="flex flex-col items-end text-right font-medium">
+              <span>{experience.date}</span>
+              <span>{experience.location}</span>
+              <span>{experience.type}</span>
             </div>
           </div>
-          <div className="flex flex-col items-end text-right">
-            <span>{experience.date}</span>
-            <span>{experience.location}</span>
-            <span>{experience.type}</span>
+          <div className="text b w-full max-w-6xl">
+            <button
+              onClick={handleChange}
+              className="underline underline-offset-4 mt-1.5 w-fit text-lg"
+            >
+              {details ? "Hide" : "Show"} Details
+            </button>
+            <Box
+              sx={{
+                display: "flex",
+                height: details ? "150px" : "0px",
+                maxWidth: "100%",
+                overflow: "auto",
+                transition: "height 500ms ease",
+                scrollbarWidth: "none",
+              }}
+            >
+              <Fade in={details}>
+                <ul className="list-disc list-inside leading-relaxed ms-[1rem]">
+                  {experience.details.map((detail, i) => (
+                    <li key={i}>{detail}</li>
+                  ))}
+                </ul>
+              </Fade>
+            </Box>
           </div>
         </div>
       ))}

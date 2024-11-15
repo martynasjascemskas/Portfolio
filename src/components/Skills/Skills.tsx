@@ -3,7 +3,7 @@ import BackEnd from "./Cards/BackEnd";
 import VersionControl from "./Cards/VersionControl";
 function Skills() {
   return (
-    <div className="w-screen py-24 flex flex-col relative items-center justify-center text-center md:gap-6 lg:text-left xl:gap-8 2xl:gap-10">
+    <div className="w-full py-24 flex flex-col relative items-center justify-center text-center md:gap-6 lg:text-left xl:gap-8 2xl:gap-10">
       <h1 className="flex items-center justify-center text-center font-bold text-5xl">
         Skills
       </h1>
