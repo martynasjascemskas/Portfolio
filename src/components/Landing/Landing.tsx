@@ -48,7 +48,7 @@ function Landing() {
           </a>
         </div>
 
-        <div className="flex items-center justify-center absolute -bottom-10 left-0 right-0 gap-1 fill-red-500 lg:top-0 lg:bottom-auto lg:right-0 lg:left-auto">
+        <div className="flex items-center justify-center absolute -bottom-10 left-0 right-0 gap-1 fill-red-500 lg:top-0 lg:bottom-auto lg:right-0 lg:left-auto hover:scale-125 duration-200">
           <img src={locationPin} className="h-8 size-6" alt="" />
           <p className="font-semibold">Based in Dublin, </p>
           <p className="font-medium">Ireland</p>

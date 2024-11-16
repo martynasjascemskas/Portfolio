@@ -8,11 +8,13 @@ function Experience() {
     showDetails(!details);
   };
   return (
-    <div className="flex flex-col w-full relative items-center justify-center text-center md:gap-6 lg:text-left xl:gap-8 2xl:gap-10">
+    <div className="flex flex-col w-full relative items-center justify-center text-center md:gap-6 lg:text-left xl:gap-8 2xl:gap-10 border-t-4 border-zinc-800 py-24">
       <h1 className="font-bold text-5xl">Experience</h1>
-      <hr className="w-8/12 border-t-4 border-gray-300" />
       {experiences.map((experience, index) => (
-        <div key={index} className="w-8/12">
+        <div
+          key={index}
+          className="w-8/12 border-4 bg-[#141414] border-zinc-500/20 rounded-xl p-4 hover:bg-[#252525] duration-100"
+        >
           <div className="flex justify-between w-full">
             <div>
               <span className="font-extrabold text-xl">
