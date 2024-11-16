@@ -3,7 +3,7 @@ import experiences from "./experiences";
 import { Box, Fade } from "@mui/material";
 
 function Experience() {
-  const [details, showDetails] = useState(false);
+  const [details, showDetails] = useState(true);
   const handleChange = () => {
     showDetails(!details);
   };
