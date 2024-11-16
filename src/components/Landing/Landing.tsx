@@ -8,10 +8,10 @@ import portrait from "../../assets/portraitportfolio.png";
 
 function Landing() {
   return (
-    <div className="flex items-center w-full h-screen -top-[10%] relative justify-center flex-wrap text-center md:flex-col md:gap-10 lg:flex-row lg:text-left xl:gap-24 2xl:gap-36">
+    <div className="flex items-center w-full h-screen -top-[10%] pb-10 relative justify-center flex-wrap text-center md:flex-col md:gap-10 lg:flex-row lg:text-left xl:gap-24 2xl:gap-36">
       <img
         src={portrait}
-        className="w-80 rounded-lg shadow-2xl"
+        className="w-64 rounded-lg shadow-2xl my-0 lg:w-80"
         alt="portrait"
       />
       <div className="relative">
@@ -21,7 +21,7 @@ function Landing() {
             Martynas Jascemskas
           </span>
         </p>
-        <p className="font-medium mt-4 w-2/3 mx-auto text-center lg:text-left lg:w-auto">
+        <p className="font-medium mt-4 w-2/3 mx-auto text-center md:text-lg lg:text-left lg:w-auto">
           A <span className="font-bold text-lg">Full Stack Developer</span>{" "}
           ready to work on interesting and <br />
           challenging projects using modern technologies
@@ -48,7 +48,7 @@ function Landing() {
           </a>
         </div>
 
-        <div className="flex items-center justify-center absolute -bottom-10 left-0 right-0 gap-1 fill-red-500 lg:top-0 lg:bottom-auto lg:right-0 lg:left-auto hover:scale-125 duration-200">
+        <div className="flex items-center justify-center absolute -bottom-10 left-0 right-0 gap-1 lg:top-0 lg:bottom-auto lg:right-0 lg:left-auto hover:scale-125 duration-200">
           <img src={locationPin} className="h-8 size-6" alt="" />
           <p className="font-semibold">Based in Dublin, </p>
           <p className="font-medium">Ireland</p>

@@ -8,8 +8,8 @@ function Experience() {
     showDetails(!details);
   };
   return (
-    <div className="flex flex-col w-full relative items-center justify-center text-center md:gap-6 lg:text-left xl:gap-8 2xl:gap-10 border-t-4 border-zinc-800 py-24">
-      <h1 className="font-bold text-5xl">Experience</h1>
+    <div className="flex flex-col w-full relative items-center justify-center text-center md:gap-6 lg:text-left xl:gap-8 2xl:gap-10 border-t-4 border-zinc-800 py-20">
+      <h1 className="font-bold text-5xl py-2">Experience</h1>
       {experiences.map((experience, index) => (
         <div
           key={index}
