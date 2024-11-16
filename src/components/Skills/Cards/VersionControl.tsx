@@ -3,7 +3,7 @@ import DisplayTech from "./DisplayTech";
 
 const VersionControl = () => {
   return (
-    <div className="bg-black border-4 border-zinc-500/20 rounded-xl py-4 px-8 w-4/5 lg:w-2/5 bg-opacity-80">
+    <div className="bg-[#141414] hover:bg-[#252525] duration-100 border-4 border-zinc-500/20 rounded-xl py-4 px-8 w-4/5 lg:w-2/5 bg-opacity-80">
       <h2 className="mb-6 font-bold text-2xl">VersionControl</h2>
       <p className="text-[#838383] font-medium">
         Version control tools help track and manage changes in code. This

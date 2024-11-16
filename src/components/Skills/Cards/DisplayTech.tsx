@@ -19,7 +19,11 @@ const DisplayTech: React.FC<techProps> = ({ name, Icon }) => {
       onMouseOver={onElement}
       onMouseLeave={notOnElement}
     >
-      {isOnElement && <div className="absolute -top-6 -left-1/2">{name}</div>}
+      {isOnElement && (
+        <div className="absolute -top-12 -left-1/2 rounded-lg bg-red-500 px-3 py-2">
+          {name}
+        </div>
+      )}
       <Icon />
     </div>
   );

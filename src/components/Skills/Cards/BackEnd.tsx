@@ -1,5 +1,6 @@
 import {
   Express,
+  MongoDB,
   MySQL,
   Nodejs,
   PostgreSQL,
@@ -9,7 +10,7 @@ import DisplayTech from "./DisplayTech";
 
 const BackEnd = () => {
   return (
-    <div className="bg-black border-4 border-zinc-500/20 rounded-xl py-4 px-8 w-4/5 lg:w-2/5 bg-opacity-80">
+    <div className="bg-[#141414] hover:bg-[#252525] duration-100 border-4 border-zinc-500/20 rounded-xl py-4 px-8 w-4/5 lg:w-2/5 bg-opacity-80">
       <h2 className="mb-6 font-bold text-2xl">Back-End</h2>
       <p className="text-[#838383] font-medium">
         In backend development, I focus on creating the server-side logic that
@@ -23,6 +24,7 @@ const BackEnd = () => {
         <DisplayTech name="PostgreSQL" Icon={PostgreSQL} />
         <DisplayTech name="MySQL" Icon={MySQL} />
         <DisplayTech name="NodeJS" Icon={Nodejs} />
+        <DisplayTech name="MongoDB" Icon={MongoDB} />
         <DisplayTech name="Postman" Icon={Postman} />
       </div>
     </div>
