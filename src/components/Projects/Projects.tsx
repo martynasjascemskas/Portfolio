@@ -1,3 +1,4 @@
+import EuroStats from "./EuroStats/EuroStats";
 import Snake from "./SnakeGame/Snake";
 import UKVisualiser from "./UKVisualiser/UKVisualiser";
 import WordleHelper from "./WorldleHelper/WordleHelper";
@@ -10,7 +11,11 @@ function Projects() {
         <div className="flex flex-col gap-12">
           <UKVisualiser />
         </div>
-        <hr className="mt-12 mb-12" />
+        <hr className="mt-12 mb-12 max-w-[85%] mx-auto" />
+        <div className="flex flex-col gap-12">
+          <EuroStats />
+        </div>
+        <hr className="mt-12 mb-12 max-w-[100%] mx-auto" />
         <div className="flex flex-wrap gap-4 w-full justify-center flex-col items-center md:flex-row lg:gap-10 2xl:gap-12">
           <Snake />
           <WordleHelper />

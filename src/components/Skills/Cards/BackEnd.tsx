@@ -5,6 +5,8 @@ import {
   Nodejs,
   PostgreSQL,
   Postman,
+  Java,
+  Spring,
 } from "../TechnologyAssets/TechnologyIcons";
 import DisplayTech from "./DisplayTech";
 
@@ -26,6 +28,8 @@ const BackEnd = () => {
         <DisplayTech name="NodeJS" Icon={Nodejs} />
         <DisplayTech name="MongoDB" Icon={MongoDB} />
         <DisplayTech name="Postman" Icon={Postman} />
+        <DisplayTech name="Java" Icon={Java} />
+        <DisplayTech name="Spring" Icon={Spring} />
       </div>
     </div>
   );

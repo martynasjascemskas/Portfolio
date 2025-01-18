@@ -4,8 +4,11 @@ import {
   Html,
   Javascript,
   MaterialUI,
+  NextJS,
   React,
+  Tailwind,
   TypeScript,
+  Vite,
 } from "../TechnologyAssets/TechnologyIcons";
 import DisplayTech from "./DisplayTech";
 
@@ -27,8 +30,11 @@ const FrontEnd = () => {
         <DisplayTech name="JavaScript" Icon={Javascript} />
         <DisplayTech name="TypeScript" Icon={TypeScript} />
         <DisplayTech name="React" Icon={React} />
+        <DisplayTech name="NextJS" Icon={NextJS} />
         <DisplayTech name="Axios" Icon={Axios} />
         <DisplayTech name="MaterialUI" Icon={MaterialUI} />
+        <DisplayTech name="Vite" Icon={Vite} />
+        <DisplayTech name="Tailwind" Icon={Tailwind} />
       </div>
     </div>
   );
