@@ -24,7 +24,7 @@ const FrontEnd = () => {
         These frameworks often provide helpful documentation, making them easy
         to learn and use.
       </p>
-      <div className="flex gap-4 items-center flex-wrap mt-4 w-3/5">
+      <div className="flex gap-4 items-center flex-wrap mt-4 w-full lg:w-3/5">
         <DisplayTech name="HTML" Icon={Html} />
         <DisplayTech name="CSS" Icon={Css} />
         <DisplayTech name="JavaScript" Icon={Javascript} />
