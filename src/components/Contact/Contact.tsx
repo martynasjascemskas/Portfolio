@@ -98,7 +98,7 @@ function Contact() {
           </div>
           <div className="mb-6 h-56">
             <textarea
-              className="bg-[#141414] hover:bg-[#252525] focus:outline-none rounded-md h-full w-full text-base font-normal px-4 pt-1 placeholder-[#676767]"
+              className="bg-[#141414] hover:bg-[#252525] focus:outline-none rounded-md h-full w-full text-base font-normal px-4 pt-1 placeholder-[#676767] min-h-20 max-h-56"
               name="message"
               placeholder="Message"
               required
