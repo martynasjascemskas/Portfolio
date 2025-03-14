@@ -10,7 +10,7 @@ const VersionControl = () => {
         enables developers to work efficiently, collaborate within teams, and
         ensure the integrity of their projects.
       </p>
-      <div className="flex gap-4 items-center flex-wrap mt-4 w-3/5">
+      <div className="flex gap-4 items-center flex-wrap mt-4 w-full lg:w-3/5">
         <DisplayTech name="Git" Icon={Git} />
         <DisplayTech name="GitHub" Icon={GitHub} />
         <DisplayTech name="GitLab" Icon={Gitlab} />
