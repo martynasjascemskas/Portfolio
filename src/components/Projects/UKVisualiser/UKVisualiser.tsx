@@ -46,7 +46,7 @@ const UKVisualiser = () => {
           <li>REST API Development</li>
           <li>Website state management</li>
         </ol>
-        <div className="flex gap-4 mt-4 mb-2">
+        <div className="flex flex-wrap gap-4 mt-4 mb-2">
           <DisplayTech name="MongoDB" Icon={MongoDB} />
           <DisplayTech name="Express" Icon={Express} />
           <DisplayTech name="React" Icon={React} />

@@ -40,7 +40,7 @@ const EuroStats = () => {
           <li>REST API Development</li>
           <li>Website state management</li>
         </ol>
-        <div className="flex gap-4 mt-4 mb-2">
+        <div className="flex flex-wrap gap-4 mt-4 mb-2">
           <DisplayTech name="React" Icon={React} />
           <DisplayTech name="TypeScript" Icon={TypeScript} />
           <DisplayTech name="Postman" Icon={Postman} />

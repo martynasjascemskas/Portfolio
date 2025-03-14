@@ -21,7 +21,7 @@ const BackEnd = () => {
         exchange, and ensuring secure, scalable performance to support growing
         user needs.
       </p>
-      <div className="flex gap-4 items-center flex-wrap mt-4 w-3/5">
+      <div className="flex gap-4 items-center flex-wrap mt-4 w-full lg:w-3/5">
         <DisplayTech name="Express" Icon={Express} />
         <DisplayTech name="PostgreSQL" Icon={PostgreSQL} />
         <DisplayTech name="MySQL" Icon={MySQL} />
