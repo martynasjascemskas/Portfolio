@@ -46,7 +46,7 @@ function Experience() {
             <Box
               sx={{
                 display: "flex",
-                height: details ? "150px" : "0px",
+                height: details ? "180px" : "0px",
                 maxWidth: "100%",
                 overflow: "auto",
                 transition: "height 500ms ease",

@@ -17,11 +17,12 @@ const experiences: Experience[] = [
     date: "February 2023 - August 2023",
     type: "Hybrid",
     details: [
-      "Contributed to an agile environment with CI/CD development workflow, fostering a collaborative and productive team environment",
-      "Assess and troubleshoot errors using Datadog",
-      "Deploying and managing pipiles in Spinnaker and Samson",
-      "Developed several front-end components using React TypeScript",
-      "Contributed to production level software development",
+      "Built and tested a Kafka topic integration and created a Protobuf schema for inter-service communication",
+      "Resolved UI issues across browsers by implementing CSS fixes, developing new components using React TypeScript",
+      "Led daily stand-ups, sprint planning, retrospectives, and backlog refinement sessions as a Scrum Master, ensuring efficient task prioritization and progress tracking",
+      "Conducted E2E testing and implemented smoke tests to ensure the reliability of new features across environments",
+      "Worked with tools such as GitHub, Jenkins, Spinnaker, Samson, Datadog, and Docker for coding, testing, and deployment workflows",
+      "Gained exposure to cross functional processes, including sprint demos and incident response management",
     ],
   },
 ];
